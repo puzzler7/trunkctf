@@ -1,0 +1,3 @@
+A google search for "maverick chung exploit" will bring up the fact that we hacked GNU cpio. From there, you can either find the blog post by looking at the [slides](https://people.duke.edu/~tkb13/courses/ece560-2021fa/slides/cpio-slides.pdf) I used for a presentation on the bug - the blog post is linked on slide 9. Or, in the [bug report PDF](https://lists.gnu.org/archive/html/bug-cpio/2021-08/pdfxOgaWPRm0N.pdf) on the initial [bug report thread](https://lists.gnu.org/archive/html/bug-cpio/2021-08/msg00000.html) has the blog post linked as well.
+
+From the [blog post](https://maxwelldulin.com/BlogPost/House-of-Muney-Heap-Exploitation), you can see that the exploit is called House of Muney, and the author is Maxwell Dulin.

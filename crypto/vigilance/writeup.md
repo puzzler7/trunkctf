@@ -1,0 +1,1 @@
+This is a Vigenere cipher, which is essentially a series of Caesar ciphers. There are lots of ways to attack it - here, I'm using the [Kasiski test](https://en.wikipedia.org/wiki/Kasiski_examination) to determine the key length, then I crack each Caesar cipher by finding the most common letter, which (almost certainly) must be an encrypted "e".

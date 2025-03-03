@@ -1,0 +1,3 @@
+There's a bug in the auth - if a token, username, and product ID are all provided, and the token and username match, the server doesn't check that the user has access to the product, and simply lets you through.
+
+Thus, you can get the private status of the "Five Nines Service" by navigating to `/admin/Five-Nines-Service` to get the product id from the webpage source, then fetching `/get_private_status?username=<your username>&product_id=<product id>`.

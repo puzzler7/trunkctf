@@ -1,0 +1,3 @@
+This is a simple XOR cipher/one time pad. XOR has the property that if you XOR with the same thing twice, you get the original value back. That is, we're given the flag XORed with some key, and XORing it with the key again will give us the original flag. This also means that XORing the ciphertext with the flag will give us the key.
+
+As we know that the flag starts with `tctf{` and ends with `}`, we can XOR the ciphertext to recover the key, which we can then use to get the flag.

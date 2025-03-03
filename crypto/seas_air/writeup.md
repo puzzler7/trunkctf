@@ -1,0 +1,3 @@
+This is just a Caesar cipher, which means it can be trivially broken with brute force ([cyberchef link](https://gchq.github.io/CyberChef/#recipe=ROT13_Brute_Force(true,true,false,100,0,true,'tctf')&input=anNqdntyeXdfZGtjcnVoaV9jdXFkaV95al94cWlfamVfcnVfaXVza2h1X2h5d3hqP30)).
+
+Additionally, because we know the first letter of the flag is 't', we can just calculate the difference between that and the first character of the ciphertext to figure out the key (see `x.py`).

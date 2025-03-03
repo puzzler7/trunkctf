@@ -1,0 +1,1 @@
+Several ways to solve this one. Looking at the https certificate, you can see that both puzzler7.com and mavchung.com are valid alternate domains. Additionally, a search for `"TrunkCTF"` pulls up both URLs. Thank Google indexing for that one - I did absolutely no SEO and that happened accidentally.

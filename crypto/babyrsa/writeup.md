@@ -1,0 +1,1 @@
+This is bog-standard RSA encryption, with a small n. The n is small enough to factor, allowing you to recover the initial primes and decrypt the flag.

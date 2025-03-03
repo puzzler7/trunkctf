@@ -1,0 +1,1 @@
+You can either decompile the binary with a tool like [Ghidra](https://ghidra-sre.org/) or [Dogbolt](https://dogbolt.org/), or simply run `strings string_cheese | grep tctf` to get the flag.

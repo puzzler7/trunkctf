@@ -1,0 +1,3 @@
+As the server will run whatever regex you give it, it is vulnerable to a ReDoS (Regex Denial of Service) attack. That is, regexes of the form `(.*)*` can cause catastrophic backtracking (see [link](https://www.regular-expressions.info/redos.html) for a deeper explanation).
+
+Thus, by giving the server a regex that causes catastrophic backtracking only if it matches the flag, you can brute force the characters of the flag.
