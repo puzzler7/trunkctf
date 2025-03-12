@@ -2,9 +2,9 @@
 
 import re
 
-jctf = open('jctf').read()
+tctf = open('tctf').read()
 
-chunks = jctf.split('\x1b[32m')
+chunks = tctf.split('\x1b[32m')
 flag = [' ' for i in range(100)]
 
 for i, chunk in enumerate(chunks[:-1]):

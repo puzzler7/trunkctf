@@ -1,0 +1,14 @@
+<h1>Generate Repo Stats Email</h1>
+<form action="/gen_email" method="post">
+    JSON: <textarea name="blob" id='blob' cols="50" rows="10" placeholder='[
+    {
+        "repo_name": "my_org/cool_repo",
+        "flaky_tests": 9001,
+        "prs_blocked": 2,
+        "time_lost": "30s"
+    }
+]'></textarea>
+    <input type="submit" value="Search!"></input>
+</form>
+<br><br>
+<a href='/source'>Source</a>

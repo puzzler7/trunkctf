@@ -37,4 +37,4 @@ while len(to_real) + len(to_fake) > 0:
             to_fake.remove(pos)
 
 out += '\x1b[0m\n'
-open("jctf", 'w').write(out)
+open("tctf", 'w').write(out)
