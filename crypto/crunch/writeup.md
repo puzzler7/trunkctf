@@ -1,0 +1,3 @@
+This is the classic [ECB penguin](https://words.filippo.io/the-ecb-penguin/) - the gist of it is that AES only encrypts 16 bytes at a time. There's lots of strategies to encrypt a larger file, but one strategy is to just encrypt every 16 byte chunk and concat them. This means that any 16 byte chunk of plaintext that's the same will map to 16 bytes of ciphertext that's the same. This leads to patterns persisting from the plaintext into the ciphertext.
+
+To solve, I simply add the ppm header to the top of the encrypted data, which treats the encrypted data like pixel data, revealing the flag.

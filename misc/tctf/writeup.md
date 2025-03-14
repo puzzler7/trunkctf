@@ -1,0 +1,1 @@
+`tctf` uses ANSI escape codes to print many red letters, some green letters, and then finally overwrite it with a red fake flag. The green characters combined are the flag. I solved this by splitting on the ANSI code for green, and retreving the immediately following character, and the position of the cursor from the previous chunk.

